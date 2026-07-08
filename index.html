@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Valentín cumple 3 años</title>
+  <meta name="description" content="Invitación digital al cumpleaños de Valentín. 12 de septiembre, de 14:00 a 17:30 hs, en Salón COPNA, Olivos." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-box">?</div>
+    <p>Cargando aventura...</p>
+  </div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand" href="#top" aria-label="Inicio">
+        <span class="brand-icon">V</span>
+        <span>Valentín 3</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#invitacion">Invitación</a></li>
+        <li><a href="#cumpleanero">Valentín</a></li>
+        <li><a href="#evento">Evento</a></li>
+        <li><a href="#cronograma">Cronograma</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#confirmar">Confirmar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="invitacion">
+      <div class="hero-bg" role="img" aria-label="Foto de Valentín"></div>
+      <div class="hero-overlay"></div>
+      <div class="scene-deco cloud cloud-one"></div>
+      <div class="scene-deco cloud cloud-two"></div>
+      <div class="scene-deco cloud cloud-three"></div>
+      <div class="scene-deco brick-row hero-bricks" aria-hidden="true">
+        <span></span><span class="question-mini">?</span><span></span><span class="question-mini">?</span><span></span>
+      </div>
+      <div class="scene-deco coin coin-one">★</div>
+      <div class="scene-deco coin coin-two">★</div>
+      <div class="scene-deco question-block block-one">?</div>
+      <div class="scene-deco pipe pipe-one"></div>
+      <div class="scene-deco pipe pipe-two"></div>
+
+      <div class="container hero-content reveal">
+        <p class="eyebrow">¡Estás invitado!</p>
+        <h1>Valentín cumple <span>3 años</span></h1>
+        <p class="hero-text">Una tarde de cumpleaños con temática Super Mario Bros, juegos, risas, torta y mucha aventura.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#confirmar">Confirmar asistencia</a>
+          <a class="btn btn-secondary" href="#evento">Ver detalles</a>
+        </div>
+      </div>
+      <div class="scroll-hint">Deslizá para empezar ↓</div>
+    </section>
+
+    <section class="section countdown-section stage-section fixed-bg">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">Cuenta regresiva</p>
+          <h2>Falta poquito para pasar de nivel</h2>
+          <p class="section-subtitle">El festejo empieza el 12 de septiembre a las 14:00 hs.</p>
+        </div>
+        <div class="countdown reveal" id="countdown" aria-label="Cuenta regresiva al evento">
+          <div class="power-card red"><span class="mini-sticker">🍄</span><strong id="days">00</strong><span>Días</span></div>
+          <div class="power-card green"><span class="mini-sticker">🧢</span><strong id="hours">00</strong><span>Horas</span></div>
+          <div class="power-card yellow"><span class="mini-sticker">⭐</span><strong id="minutes">00</strong><span>Minutos</span></div>
+          <div class="power-card blue"><span class="mini-sticker">🪙</span><strong id="seconds">00</strong><span>Segundos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="cumpleanero">
+      <div class="container two-column">
+        <div class="photo-card reveal">
+          <img src="assets/valentin-smile.jpg" alt="Valentín sonriendo" />
+          <span class="badge">Nivel 3 desbloqueado</span>
+        </div>
+        <div class="content-card reveal game-card">
+          <div class="card-sticker sticker-mario"><img src="assets/mario-original.jpg" alt="Mario" /></div>
+          <p class="eyebrow dark">El cumpleañero</p>
+          <h2>Valentín cumple 3</h2>
+          <p>Este año Valentín desbloquea un nuevo nivel y queremos celebrarlo con quienes más queremos. Será una tarde infantil, alegre, colorida y pensada para compartir en familia.</p>
+          <div class="mini-features">
+            <span>🎈 Juegos</span>
+            <span>🍄 Temática Mario</span>
+            <span>🎂 Torta</span>
+            <span>⭐ Sorpresas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section details-section fixed-bg" id="evento">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">Detalles del evento</p>
+          <h2>Guardá la fecha</h2>
+          <p class="section-subtitle">Todo lo importante del cumple, presentado como una invitación infantil estilo videojuego.</p>
+        </div>
+        <div class="details-grid details-grid-three">
+          <article class="detail-card reveal card-red">
+            <div class="character-sticker"><img src="assets/mario-original.jpg" alt="Mario" /></div>
+            <div class="detail-icon">📅</div>
+            <h3>Fecha</h3>
+            <p>12 de septiembre</p>
+          </article>
+          <article class="detail-card reveal card-green">
+            <div class="character-sticker"><img src="assets/luigi-original.jpg" alt="Luigi" /></div>
+            <div class="detail-icon">⏰</div>
+            <h3>Horario</h3>
+            <p>De 14:00 a 17:30 hs</p>
+          </article>
+          <article class="detail-card reveal card-blue">
+            <div class="character-sticker"><img src="assets/yoshi-original.jpg" alt="Yoshi" /></div>
+            <div class="detail-icon">📍</div>
+            <h3>Lugar</h3>
+            <p>Salón COPNA</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="cronograma">
+      <div class="timeline-sky" aria-hidden="true">
+        <div class="cloud cloud-timeline-one"></div>
+        <div class="cloud cloud-timeline-two"></div>
+        <div class="coin coin-timeline">★</div>
+        <div class="pipe pipe-timeline"></div>
+        <img class="floating-character timeline-mario" src="assets/mario-original.jpg" alt="Mario" />
+        <img class="floating-character timeline-yoshi" src="assets/yoshi-original.jpg" alt="Yoshi" />
+      </div>
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow light">Cronograma</p>
+          <h2>La aventura de la tarde</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="time">14:00</span>
+            <div><h3>Bienvenida</h3><p>Recibimos a los invitados y empezamos el festejo.</p></div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="time">14:30</span>
+            <div><h3>Juegos y diversión</h3><p>Actividades infantiles para pasar de nivel con Valentín.</p></div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="time">16:00</span>
+            <div><h3>Torta y velitas</h3><p>Momento especial para cantar el feliz cumpleaños.</p></div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="time">17:00</span>
+            <div><h3>Sorpresas finales</h3><p>Últimos juegos, fotos y despedida.</p></div>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="time">17:30</span>
+            <div><h3>Fin del evento</h3><p>Gracias por acompañarnos en este día tan especial.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section location-section fixed-bg" id="ubicacion">
+      <div class="container two-column reverse-mobile">
+        <div class="map-card reveal">
+          <iframe
+            title="Ubicación Salón COPNA"
+            src="https://www.google.com/maps?q=Mariano%20Pelliza%20310%2C%20B1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="content-card reveal game-card location-card">
+          <div class="card-sticker sticker-princess"><img src="assets/princess-original.jpg" alt="Princesa Peach" /></div>
+          <p class="eyebrow dark">Ubicación</p>
+          <h2>Salón COPNA</h2>
+          <p>Mariano Pelliza 310, B1636 Olivos, Provincia de Buenos Aires.</p>
+          <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Mariano%20Pelliza%20310%2C%20B1636%20Olivos%2C%20Provincia%20de%20Buenos%20Aires" target="_blank" rel="noopener">Abrir en Google Maps</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rsvp-section" id="confirmar">
+      <div class="container">
+        <div class="rsvp-card reveal">
+          <div class="rsvp-stickers" aria-hidden="true"><span><img src="assets/mario-original.jpg" alt="" /></span><span><img src="assets/princess-original.jpg" alt="" /></span><span><img src="assets/yoshi-original.jpg" alt="" /></span><span><img src="assets/bowser-original.jpg" alt="" /></span></div>
+          <p class="eyebrow light">Confirmación</p>
+          <h2>¿Venís a festejar con Valentín?</h2>
+          <p>Confirmá tu asistencia para que podamos preparar todo para esta gran aventura.</p>
+          <!-- Reemplazar el número de WhatsApp por el correspondiente. Formato recomendado: 54911XXXXXXXX -->
+          <a class="btn btn-whatsapp" href="https://wa.me/5491112345678?text=Hola%2C%20confirmo%20asistencia%20al%20cumple%20de%20Valent%C3%ADn%20%F0%9F%8E%82" target="_blank" rel="noopener">Confirmar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Valentín cumple 3 años · 12 de septiembre</p>
+      <a href="#top">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
